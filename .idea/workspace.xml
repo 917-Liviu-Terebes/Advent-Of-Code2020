@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UniTasks/A678/a678-917-Liviu-Terebes" />
   </component>
   <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -87,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606837558554</updated>
-      <workItem from="1606837559680" duration="700000" />
+      <workItem from="1606837559680" duration="755000" />
+      <workItem from="1606839280380" duration="20000" />
     </task>
     <servers />
   </component>
@@ -99,22 +100,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606837675757" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606837945142">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606839291813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606837945142" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606837945142">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606839291813" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1606838320101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606837945142" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606837945141">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606838320101" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1606838320101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606837945141" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606837945142">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606838320101" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1606838320101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606837945142" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606838320101" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1606838320101">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606838320101" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
