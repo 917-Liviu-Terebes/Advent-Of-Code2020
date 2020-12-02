@@ -31,12 +31,20 @@ int main()
             tokens = strtok(NULL, delim);
         }
 
-        // checking if the password is correct
+        // checking if the password is correct part 1
+        /*
         int counter = 0;
         for(int i = 0; i < strlen(password); ++i)
             if(password[i] == letter)
                 counter++;
         if(counter >= start_val && counter <= end_val)
+            passcounter++;
+        */
+        // part 2
+        int counter = 0;
+        counter += (start_val - 1 < strlen(password) ? password[start_val-1] == letter : 0);
+        counter += (end_val - 1 < strlen(password) ? password[end_val-1] == letter : 0);
+        if(counter == 1)
             passcounter++;
     }
     g << passcounter;
