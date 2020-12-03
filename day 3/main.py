@@ -10,13 +10,61 @@ if __name__ == '__main__':
         tree_map.append(line[:-1])
         tree_map_copy.append(line[:-1])
 
+    counter_prod = 1
+
     counter = 0
     posx = 0
     posy = 0
-    while posx != len(tree_map):
+    while posx < len(tree_map):
+        if tree_map_copy[posx][posy] == '#':
+            counter += 1
+        posx += 1
+        posy += 1
+        posy %= 31
+    counter_prod *= counter
+
+    counter = 0
+    posx = 0
+    posy = 0
+    while posx < len(tree_map):
         if tree_map_copy[posx][posy] == '#':
             counter += 1
         posx += 1
         posy += 3
         posy %= 31
-    print(counter)
+    counter_prod *= counter
+
+    counter = 0
+    posx = 0
+    posy = 0
+    while posx < len(tree_map):
+        if tree_map_copy[posx][posy] == '#':
+            counter += 1
+        posx += 1
+        posy += 5
+        posy %= 31
+    counter_prod *= counter
+
+    counter = 0
+    posx = 0
+    posy = 0
+    while posx < len(tree_map):
+        if tree_map_copy[posx][posy] == '#':
+            counter += 1
+        posx += 1
+        posy += 7
+        posy %= 31
+    counter_prod *= counter
+
+    counter = 0
+    posx = 0
+    posy = 0
+    while posx < len(tree_map):
+        if tree_map_copy[posx][posy] == '#':
+            counter += 1
+        posx += 2
+        posy += 1
+        posy %= 31
+    counter_prod *= counter
+
+    print(counter_prod)
