@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24bf8d82-a07f-403c-ae81-4fc6da048546" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 16/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day 16/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 16/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 16/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,8 +214,18 @@
       <workItem from="1608022468297" duration="1734000" />
       <workItem from="1608105622944" duration="1737000" />
       <workItem from="1608118377864" duration="2219000" />
-      <workItem from="1608137506754" duration="1787000" />
+      <workItem from="1608137506754" duration="1935000" />
+      <workItem from="1608187025930" duration="175000" />
+      <workItem from="1608198066304" duration="109000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 16 solved">
+      <created>1608139335925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608139335925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,9 +234,25 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.txt" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 16 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 16 solved" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1607772872677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 12" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1608139306307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 16" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1608198068523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 16" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main.coverage" NAME="main Coverage Results" MODIFIED="1606837667199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__6_.coverage" NAME="main (6) Coverage Results" MODIFIED="1607418472321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 8" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1608019026363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 14" />
