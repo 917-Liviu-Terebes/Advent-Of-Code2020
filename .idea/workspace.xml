@@ -28,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UniTasks/A1/seminar-LiviuT14/seminar_12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.main (6)">
     <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -217,6 +217,8 @@
       <workItem from="1608198066304" duration="109000" />
       <workItem from="1608278904430" duration="448000" />
       <workItem from="1608283968254" duration="73000" />
+      <workItem from="1608396385975" duration="810000" />
+      <workItem from="1608452330765" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="Day 16 solved">
       <created>1608139335925</created>
@@ -254,7 +256,7 @@
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1607772872677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 12" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1608198068523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 16" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main.coverage" NAME="main Coverage Results" MODIFIED="1606837667199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__6_.coverage" NAME="main (6) Coverage Results" MODIFIED="1608279241032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__6_.coverage" NAME="main (6) Coverage Results" MODIFIED="1608396546854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1608019026363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 14" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1608105896005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 15" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1607934643711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 13" />
