@@ -1,61 +1,86 @@
-# Day 7
-# the regex might be stolen from sophiebits because it makes the code shorter
-
+"""
+--- Day 7: Handy Haversacks ---
+Strategy:
+- Use regex to parse the data in an easier way. Then perform a DFS to count the bags
+Thanks to sophiebits for the idea of using regex (Without it, the code is much longer and difficult)
+"""
 import re
 
-f = open('input.txt', 'rt')
-f = [line.strip() for line in f.readlines()]
-
 # I imagined the bags as trees, but this also works
+# Watch out, they are global variables
 contained_in = dict()
 contains = dict()
-
 bags_holding_gold = set()
-number_of_bags = 0
 
 
-def count_bags_which_hold_colour(colour):
-    # add each bag that contains the given colour into a set
-    # and go up to the next level and also count that
+def traverse_up_bags(colour):
+    """
+    Traverse each bag which holds a bag of given colour (and add it to the set of bags which hold gold)
+    :param colour: Colour (String)
+    """
+    # Add each bag that contains the given colour into a set
+    # And go up to the next level and also count that
     if colour not in contained_in:
         return
     for bag_colour in contained_in[colour]:
         bags_holding_gold.add(bag_colour)
-        count_bags_which_hold_colour(bag_colour)
+        traverse_up_bags(bag_colour)
 
 
 def count_contained_bags(colour):
-    # sum each bag contained by given colour bag
-    # and go down to the next level and also count them
+    """
+    Traverse each bag which is contained by the bag of the given colour and count the number of them
+    :param colour: Colour (String)
+    :return: Count
+    """
+    # Sum each bag contained by given colour bag
+    # And go down to the next level and also count them
     count = 0
-    for quantity, bagcolor in contains[colour]:
+    for quantity, bag_color in contains[colour]:
         count += quantity
-        count += quantity * count_contained_bags(bagcolor)
+        count += quantity * count_contained_bags(bag_color)
     return count
 
 
-if __name__ == '__main__':
-    for line in f:
+def parse_input():
+    """
+    Parse the input file
+    """
+    inp_file = open('input.txt', 'rt')
+
+    file_lines = [line.strip() for line in inp_file.readlines()]
+
+    for line in file_lines:
         # god bless regex
-        # this gets the color of the bag on the current line
+        # This gets the color of the bigger bag on the current line
         color = re.match(r'(.+?) bags contain', line)[1]
-        # for empty dict
+
+        # Initialize the empty dictionary
         if color not in contains:
             contains[color] = list()
-        # this gets all the bags on the line, which are contained by the bigger bag at the start of the line
-        for quantity, bagcolor in re.findall(r'(\d+) (.+?) bags?[,.]', line):
+
+        # This gets all the bags on the line (which are contained by the bigger bag at the start of the line)
+        for quantity, bag_color in re.findall(r'(\d+) (.+?) bags?[,.]', line):
+            # Get how many bags of the current color are in the bag
             quantity = int(quantity)
-            # for empty dict
-            if bagcolor not in contained_in:
-                contained_in[bagcolor] = set()
 
-            # update the dictionaries
-            contained_in[bagcolor].add(color)
-            contains[color].append((quantity, bagcolor))
+            # Initialize empty dictionary
+            if bag_color not in contained_in:
+                contained_in[bag_color] = set()
 
-    # part 1
-    # count_bags_which_hold_colour('shiny gold')
-    # print(len(bags_holding_gold))
+            # Update the dictionaries/ Add the bag relationships
+            contained_in[bag_color].add(color)
+            contains[color].append((quantity, bag_color))
 
-    # part 2
-    print(count_contained_bags('shiny gold'))
+    inp_file.close()
+
+
+if __name__ == '__main__':
+    parse_input()
+
+    # Part 1
+    traverse_up_bags('shiny gold')
+    print("Part 1: ", len(bags_holding_gold))
+
+    # Part 2
+    print("Part 2: ", count_contained_bags('shiny gold'))

@@ -1,12 +1,10 @@
 """
-    Day 18
+--- Day 18: Operation Order ---
+- Strategy:
+Rewrite the numbers as objects and overwrite the -+* operators
 """
 
-
 import re
-
-with open("input.txt") as f:
-    expressions = f.read().splitlines()
 
 
 class EqualPrecedence(int):
@@ -18,7 +16,9 @@ class EqualPrecedence(int):
 
     @staticmethod
     def eval(expr):
-        return eval(re.sub(r"\d+", lambda match: f"EqualPrecedence({match.group(0)})", expr.replace("*", "-"),))
+        # Replace each number in the string by EqualPrecedence(number) and * by -
+        # Then evaluate the sum and return it
+        return eval(re.sub(r"\d+", lambda match: f"EqualPrecedence({match.group(0)})", expr.replace("*", "-")))
 
 
 class ReversedPrecedence(int):
@@ -30,10 +30,18 @@ class ReversedPrecedence(int):
 
     @staticmethod
     def eval(expr):
+        # Replace * by + and evaluate the expression
         return eval(re.sub(r"\d+",
                            lambda match: f"ReversedPrecedence({match.group(0)})",
                            expr.replace("+", "x").replace("*", "+").replace("x", "*"),))
 
 
-print("Part 1:", sum(map(EqualPrecedence.eval, expressions)))
-print("Part 2:", sum(map(ReversedPrecedence.eval, expressions)))
+if __name__ == '__main__':
+    # Read the contents
+    f = open('input.txt', 'rt')
+    expressions = f.read().splitlines()
+
+    print("Part 1:", sum(map(EqualPrecedence.eval, expressions)))
+    print("Part 2:", sum(map(ReversedPrecedence.eval, expressions)))
+
+    f.close()

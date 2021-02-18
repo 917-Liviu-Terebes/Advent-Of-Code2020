@@ -3,6 +3,60 @@
   <component name="ChangeListManager">
     <list default="true" id="24bf8d82-a07f-403c-ae81-4fc6da048546" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 10/day 10.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day 10/day 10.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 10/day 10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 10/day 10.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 11/day11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/day 11/day11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 12/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 12/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 13/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 13/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 14/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 14/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/day 15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 15/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 15/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 16/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day 16/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 16/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 16/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 17/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day 17/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 17/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 17/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 18/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 18/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/bin/Debug/day 2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/day 2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/day 2.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 2/day 2/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 20/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/day 20/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 20/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 20/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 22/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 22/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 4/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/bin/Debug/day5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/day5.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/day5.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/day5.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/input.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 5/day5/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 7/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 8/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/day 8/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/bin/Release/day9.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/day9.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/day9.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/day9.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day 9/day9/obj/Release/main.o" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,32 +83,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UniTasks/A11/a11-917-Liviu-Terebes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Python.main (5)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Advent-Of-Code2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 19" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 19/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Advent-Of-Code2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Advent-Of-Code2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,6 +130,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Advent-Of-Code2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 24" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 24/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Advent-Of-Code2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 23" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 25" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 23/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 25/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,12 +182,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 24" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day 23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 24/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day 23/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,6 +281,16 @@
       <workItem from="1608724906832" duration="373000" />
       <workItem from="1608800185022" duration="2827000" />
       <workItem from="1609256527263" duration="97000" />
+      <workItem from="1612517442881" duration="4086000" />
+      <workItem from="1612779446463" duration="8847000" />
+      <workItem from="1612865176708" duration="432000" />
+      <workItem from="1612877424914" duration="3209000" />
+      <workItem from="1613062223592" duration="1985000" />
+      <workItem from="1613145044115" duration="2419000" />
+      <workItem from="1613383185369" duration="4235000" />
+      <workItem from="1613467914276" duration="4574000" />
+      <workItem from="1613554983364" duration="1205000" />
+      <workItem from="1613641113130" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="Day 16 solved">
       <created>1608139335925</created>
@@ -261,12 +325,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Day 16 solved" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1608542612983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1608805350740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1613472494412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 21" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1613642988080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23" />
     <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main.coverage" NAME="main Coverage Results" MODIFIED="1606837667199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__6_.coverage" NAME="main (6) Coverage Results" MODIFIED="1608396546854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 18" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1608710440981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 22" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1608710448061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 23" />
-    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1608543109938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 21" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__6_.coverage" NAME="main (6) Coverage Results" MODIFIED="1613395820635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 19" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1613555913000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 24" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1613642272811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 25" />
+    <SUITE FILE_PATH="coverage/Advent_Of_Code2020$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1613472769667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day 22" />
   </component>
 </project>

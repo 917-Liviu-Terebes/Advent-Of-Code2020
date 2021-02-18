@@ -1,70 +1,58 @@
-f = open("input.txt", "rt")
+"""
+--- Day 3: Toboggan Trajectory ---
+Strategy:
+- Simulating the movement and then checking every position (you don't need to copy the map to the right,
+the modulo operator makes it easier and you only need a copy of the map)
+"""
+
+
+def simulate_moving(slope_x, slope_y):
+    """
+    Simulates a run through the forest if you have the slopes given as parameters
+    x/y axis is rotated (x means up-down | y means left-right)
+    :param slope_x: Change in x axis (Int)
+    :param slope_y: Change in y axis (Int)
+    :return: Number of trees hit along the run (Int)
+    """
+    counter = 0         # Counter for the trees
+    position = (0, 0)   # Position of the sledge
+
+    num_lines = len(tree_map)
+    num_columns = len(tree_map[0])
+
+    # Repeat until we hit the last line of the map
+    while position[0] < num_lines:
+        # If we hit a tree, count it
+        if tree_map[position[0]][position[1]] == '#':
+            counter += 1
+        # Update the position (Remember than we use modulo for the y axis)
+        position = (position[0] + slope_x, (position[1] + slope_y) % num_columns)
+
+    return counter
+
+
+def part1():
+    """
+    First part of the problem
+    """
+    return simulate_moving(1, 3)
+
+
+def part2():
+    """
+    Second part of the problem
+    """
+    slopes = [(1, 1), (1, 3), (1, 5), (1, 7), (2, 1)]
+    tree_product = 1
+    # For each slope, simulate a movement and multiply it to the total product
+    for slope in slopes:
+        tree_product *= simulate_moving(*slope)
+    return tree_product
+
 
 if __name__ == '__main__':
-    tree_map = []
-    tree_map_copy = []
-    len_line = 0
-    for line in f:
-        if not len_line:
-            len_line = len(line)
-        tree_map.append(line[:-1])
-        tree_map_copy.append(line[:-1])
+    f = open("input.txt", "rt")
+    tree_map = [line.strip() for line in f.readlines()]
 
-    counter_prod = 1
-
-    counter = 0
-    posx = 0
-    posy = 0
-    while posx < len(tree_map):
-        if tree_map_copy[posx][posy] == '#':
-            counter += 1
-        posx += 1
-        posy += 1
-        posy %= 31
-    counter_prod *= counter
-
-    counter = 0
-    posx = 0
-    posy = 0
-    while posx < len(tree_map):
-        if tree_map_copy[posx][posy] == '#':
-            counter += 1
-        posx += 1
-        posy += 3
-        posy %= 31
-    counter_prod *= counter
-
-    counter = 0
-    posx = 0
-    posy = 0
-    while posx < len(tree_map):
-        if tree_map_copy[posx][posy] == '#':
-            counter += 1
-        posx += 1
-        posy += 5
-        posy %= 31
-    counter_prod *= counter
-
-    counter = 0
-    posx = 0
-    posy = 0
-    while posx < len(tree_map):
-        if tree_map_copy[posx][posy] == '#':
-            counter += 1
-        posx += 1
-        posy += 7
-        posy %= 31
-    counter_prod *= counter
-
-    counter = 0
-    posx = 0
-    posy = 0
-    while posx < len(tree_map):
-        if tree_map_copy[posx][posy] == '#':
-            counter += 1
-        posx += 2
-        posy += 1
-        posy %= 31
-    counter_prod *= counter
-
-    print(counter_prod)
+    print(part1())
+    print(part2())

@@ -1,40 +1,45 @@
 """
-    Day 14
-    Yes it takes 2-3 seconds to run, but it's hard to work with binary numbers in Python
+--- Day 14: Docking Data ---
+It's hard to work with binary numbers in Python
+Strategy:
+- Simulate the bit work
 """
 
 
-def part_one():
+def part1():
+    """
+    Part 1 of the problem
+    """
     f = open('input.txt', 'rt')
     mem, mask = {}, ""
     for line in f:
         if "mem" in line:
-            # get the address and value from the file
+            # Get the address and value from the file
             mem_address = int(line.split(' = ')[0][4:-1])
             mem_value = int(line.split(' = ')[1])
 
-            # apply the mask on every bit
+            # Apply the mask on every bit
             for i in range(36):
                 if mask[35 - i] == '0':
                     mem_value = mem_value & ~(1 << i)
                 elif mask[35 - i] == '1':
                     mem_value = mem_value | (1 << i)
 
-            # save the value in memory
+            # Save the value in memory
             mem[mem_address] = mem_value
         else:
-            # update the mask
+            # Update the mask
             mask = line.split('=')[1].strip()
     f.close()
-    # in the end, return the sum of all values in memory
+    # In the end, return the sum of all values in memory
     return sum(mem.values())
 
 
 def generate_every_code(bin_address):
     """
     Generates every number given the float mast bin_address
-    :param bin_address: list of str
-    :return: list of int
+    :param bin_address: List of strings
+    :return: List of int
     """
     result = []
     # Get the positions where 'X' is
@@ -61,7 +66,10 @@ def generate_every_code(bin_address):
     return result
 
 
-def part_two():
+def part2():
+    """
+    Part 2 of the problem
+    """
     f = open('input.txt', 'rt')
     mem, mask = {}, ""
     for line in f:
@@ -89,9 +97,10 @@ def part_two():
 
         else:
             mask = line.split('=')[1].strip()
+    f.close()
     return sum(mem.values())
 
 
 if __name__ == '__main__':
-    print("Part 1: ", part_one())
-    print("Part 2: ", part_two())
+    print("Part 1: ", part1())
+    print("Part 2: ", part2())

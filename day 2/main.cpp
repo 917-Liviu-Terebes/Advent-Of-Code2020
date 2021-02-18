@@ -1,3 +1,9 @@
+/*
+--- Day 2: Password Philosophy ---
+Strategy:
+- Split each line into components and check the password
+*/
+
 #include <bits/stdc++.h>
 #define NUM 100
 using namespace std;
@@ -6,20 +12,26 @@ ofstream g("output.txt");
 
 int main()
 {
-    int passcounter = 0;
+    // Counters for the problem
+    int passcounter_1 = 0;
+    int passcounter_2 = 0;
     char input_line[NUM];
+
+    // Read each line from the file
     while(f.getline(input_line, NUM))
     {
-        // read each line and convert it to needed data
+        // Split the line into tokens
         char *delim = ": -";
         char *tokens = strtok(input_line, delim);
-        // data
+        // Data which is extracted from the tokens
         int start_val, end_val;
         char letter;
         char password[NUM];
 
+        // Extract the data from the tokens
         for(int i = 0; i < 4; ++i)
         {
+            // I guess it's easier to use switch cases here (and pretty explicit)
             switch(i)
             {
                 case 0: start_val = atoi(tokens); break;
@@ -27,25 +39,32 @@ int main()
                 case 2: letter = tokens[0]; break;
                 case 3: strcpy(password, tokens); break;
             }
-
+            // Get the next token
             tokens = strtok(NULL, delim);
         }
 
-        // checking if the password is correct part 1
-        /*
+        // Part 1
+        // Count the frequency of the letter
         int counter = 0;
         for(int i = 0; i < strlen(password); ++i)
             if(password[i] == letter)
                 counter++;
         if(counter >= start_val && counter <= end_val)
-            passcounter++;
-        */
-        // part 2
-        int counter = 0;
+            passcounter_1++;
+
+        // Part 2
+        // Check if the letters are in the specified places
+        counter = 0;
         counter += (start_val - 1 < strlen(password) ? password[start_val-1] == letter : 0);
         counter += (end_val - 1 < strlen(password) ? password[end_val-1] == letter : 0);
         if(counter == 1)
-            passcounter++;
+            passcounter_2++;
     }
-    g << passcounter;
+
+    g << "Part 1: " << passcounter_1 << "\nPart 2: " << passcounter_2;
+
+    f.close();
+    g.close();
+
+    return 0;
 }
